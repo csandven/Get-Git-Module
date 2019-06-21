@@ -22,8 +22,10 @@
   "homepage": "https://github.com/csandven/Get-Git-Module#readme",
   "dependencies": {
     "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
     "node-libcurl": "^2.0.1",
     "promptly": "^3.0.3",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "rimraf": "^2.6.3"
   }
 }

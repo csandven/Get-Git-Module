@@ -61,3 +61,5 @@ typings/
 .next
 
 .credentials
+
+git_package.json
