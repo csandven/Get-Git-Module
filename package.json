@@ -1,0 +1,31 @@
+{
+  "name": "getgitmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "getgitmodule": "./bin/getGitModule.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csandven/Get-Git-Module.git"
+  },
+  "author": "Christian Sandven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csandven/Get-Git-Module/issues"
+  },
+  "homepage": "https://github.com/csandven/Get-Git-Module#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "node-libcurl": "^2.0.1",
+    "promptly": "^3.0.3",
+    "request": "^2.88.0",
+    "rimraf": "^2.6.3"
+  }
+}
