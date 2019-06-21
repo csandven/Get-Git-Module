@@ -4,6 +4,7 @@ const argv = require('minimist')(process.argv.slice(2))
 
 const credentialsController = require('../lib/credentialsController.js')
 const importController = require('../lib/importController.js')
+const removeController = require('../lib/removeController.js')
 
 if (!argv._[0]) {
     console.log('No arguments found')
@@ -30,5 +31,9 @@ switch (argv._[0]) {
         } else {
             console.log(`${argv._[1]} is not a method in import!`)
         }
+        break
+
+    case 'remove':
+        removeController.remove(argv._.slice(1))
         break
 }
