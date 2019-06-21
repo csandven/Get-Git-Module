@@ -2,9 +2,9 @@
 
 const argv = require('minimist')(process.argv.slice(2))
 
-const credentialsController = require('../lib/credentialsController.js')
-const importController = require('../lib/importController.js')
-const removeController = require('../lib/removeController.js')
+const credentialsController = require('../lib/credentialsController')
+const importController = require('../lib/importController')
+const removeController = require('../lib/removeController')
 
 if (!argv._[0]) {
     console.log('No arguments found')
@@ -35,5 +35,9 @@ switch (argv._[0]) {
 
     case 'remove':
         removeController.remove(argv._.slice(1))
+        break
+
+    case 'install':
+        importController.install()
         break
 }
