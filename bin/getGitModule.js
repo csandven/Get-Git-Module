@@ -8,7 +8,20 @@ const removeController = require('../lib/removeController')
 
 if (!argv._[0]) {
     console.log('No arguments found')
-    // @TODO list out all available arguments
+    console.log('Available commands are:')
+
+    console.log(`
+getgitmodule
+    credentials 
+        set                 Set credentials for private repos
+        remove              Removes the credentials
+    
+    import                  import module
+
+    install                 install modules from git_package.json
+
+    remove module1 module2  removes modules
+`)
 
     process.exit()
 }
