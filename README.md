@@ -13,6 +13,14 @@ npm install -g getgitmodule
 
 Note: This script should always be called from the root directory of your project.
 
+### Setup target folder (Optional)
+
+The default target folder for the modules is: ./path/to/your/project/git_modules.
+This can be changed to what ever you like.
+
+```bash
+getgitmodule import setPath ./yourModuleFolder
+```
 
 ### Get a file or folder from a public repository
 ```bash

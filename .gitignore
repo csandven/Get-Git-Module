@@ -61,5 +61,6 @@ typings/
 .next
 
 .credentials
+.gitModulesFolder
 
 git_package.json
