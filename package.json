@@ -1,7 +1,7 @@
 {
   "name": "getgitmodule",
   "version": "1.1.0",
-  "description": "",
+  "description": "Get single scripts or folder of scripts from github to reuse in your project.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
