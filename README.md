@@ -1,6 +1,8 @@
 
 # Get Git Module
 
+Get single scripts or folder of scripts from github to reuse in your project.
+
 ## Installation
 
 ```bash
@@ -49,6 +51,12 @@ File can now be used like:
 
 ```javascript
 const myModule = require('./git_modules/myModule')
+```
+
+### With arguments
+
+```bash
+getgitmodule import --repo myCompany/myRepo --branch master --file myFolder/myFile.js
 ```
 
 
