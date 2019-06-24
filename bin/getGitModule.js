@@ -40,7 +40,7 @@ switch (argv._[0]) {
     case 'import':
         func = importController[argv._[1] || 'import']
         if (typeof func === 'function') {
-            func(argv._.slice(1))
+            func(argv)
         } else {
             console.log(`${argv._[1]} is not a method in import!`)
         }
